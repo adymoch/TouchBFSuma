@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636978918866",
+    "project_id": "touchbfsuma-4062b",
+    "storage_bucket": "touchbfsuma-4062b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636978918866:android:09ae596445db8ac153440b",
+        "android_client_info": {
+          "package_name": "com.moch.touchbfsuma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-sGEHgv3mwL54vnVX5Wq0HYaFoqjJjwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
