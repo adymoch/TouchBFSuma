@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TouchBFSuma</string>
+    <string name="title_activity_stock">StockActivity</string>
 </resources>

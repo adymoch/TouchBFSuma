@@ -7,9 +7,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.moch.touchbfsuma.ui.theme.screens.home.HomeScreen
 import androidx.navigation.compose.composable
+import com.moch.touchbfsuma.ui.theme.screens.account.AccountScreen
+import com.moch.touchbfsuma.ui.theme.screens.add.AddScreen
 import com.moch.touchbfsuma.ui.theme.screens.login.LoginScreen
 import com.moch.touchbfsuma.ui.theme.screens.signup.SignupScreen
 import com.moch.touchbfsuma.ui.theme.screens.splash.SplashScreen
+import com.moch.touchbfsuma.ui.theme.screens.splash.com.moch.touchbfsuma.ui.theme.screens.stocks.StocksScreen
 
 
 @Composable
@@ -30,6 +33,15 @@ fun AppNavHost(modifier: Modifier = Modifier, navController:NavHostController = 
         }
         composable(ROUT_SPLASH) {
             SplashScreen(navController)
+        }
+        composable(ROUT_STOCK) {
+            StocksScreen(navController)
+        }
+        composable(ROUT_ACCOUNT) {
+            AccountScreen(navController)
+        }
+        composable(ROUT_ADD) {
+            AddScreen(navController)
         }
 
 
